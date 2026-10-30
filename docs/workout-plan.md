@@ -1,173 +1,227 @@
-# One-week training plan
+# Training plan
 
-Seven-day cycle for one lifter. Five days are hard lifting sessions of about 60–75 minutes. Thursday and Sunday are recovery: stretching and mobility only, about 30 minutes.
+Eight weeks in Hevy, split into two 4-week blocks. Both blocks use the same weekly order: Push, Pull, Legs, Recovery, Upper, Lower, Recovery. Block 1 repeats one week for weeks 1–4. Block 2 keeps that split for weeks 5–8 and swaps in harder variations.
 
-Each major muscle group is trained twice. Push muscles land on Monday and Friday, pull muscles on Tuesday and Friday, and legs on Wednesday and Saturday. The two leg days are separated by Thursday and Friday.
+Routine titles are plain: Push, Pull, Legs, Recovery, Upper, Lower. They live in two folders:
 
-RIR means reps in reserve. RIR 2 means stop with about two reps left before form breaks. Warm-up sets are extra and are not in the working-set counts. On lifting days, warm up with 5 minutes of easy cycling or rowing, then 1–2 light sets of the first lift.
+- `Block 1 (Weeks 1-4)`
+- `Block 2 (Weeks 5-8 - Variations)`
 
-Log only the strength tables in Hevy. Build five routines: Push, Pull, Legs, Upper, Lower. Plyometrics, static holds, and the mobility routine stay out of those routines.
+Everything below is logged in Hevy, including warm-up sets, the low-volume jumps, the static holds, and the recovery work. Jumps are on Legs and Lower. Those days also carry the knee and calf static holds. Recovery is stretching and mobility for the hips, ankles, feet, and wrists, plus the easy 5-minute start. Block 2 recovery adds a deep squat hold and a dead hang. Holds, stretches, and mobility drills are custom exercises. Stats for the dashboard will later be pulled from the Hevy API.
+
+On Legs and Lower, the order in the routine is the bodyweight squat warm-up, then jumps, then lifts, then static holds.
 
 ## Week
 
-| Day | Session | What you do | Time |
-| --- | --- | --- | --- |
-| Monday | Push | Hevy Push | ~65 min |
-| Tuesday | Pull | Hevy Pull | ~60 min |
-| Wednesday | Legs | Plyometrics, then Hevy Legs, then static holds | ~70 min |
-| Thursday | Recovery | Mobility routine | ~30 min |
-| Friday | Upper | Hevy Upper | ~65 min |
-| Saturday | Lower | Plyometrics, then Hevy Lower, then static holds | ~70 min |
-| Sunday | Recovery | Mobility routine | ~30 min |
+| Day | Routine |
+| --- | --- |
+| Monday | Push |
+| Tuesday | Pull |
+| Wednesday | Legs |
+| Thursday | Recovery |
+| Friday | Upper |
+| Saturday | Lower |
+| Sunday | Recovery |
 
-On Wednesday and Saturday, do the jumps first while you are fresh, then the Hevy lifts, then the static holds.
+Thursday and Sunday both use that block’s Recovery routine.
 
-## Hevy sessions
+## Block 1 (Weeks 1–4)
 
-Strength work only. Names match the Hevy library.
+Same routines every week. Folder: `Block 1 (Weeks 1-4)`.
 
-### Push (Monday)
+### Push
 
-| Exercise | Sets × reps | RIR | Rest |
-| --- | --- | --- | --- |
-| Incline Bench Press (Dumbbell), bench near 45° | 4 × 6–8 | 1–2 | 2.5 min |
-| Bench Press (Smith Machine) | 3 × 8–10 | 1–2 | 2 min |
-| Butterfly (Pec Deck) | 3 × 10–12 | 1 | 90 s |
-| Shoulder Press (Dumbbell) | 3 × 8–10 | 1–2 | 2 min |
-| Lateral Raise (Dumbbell) | 3 × 12–15 | 1 | 75 s |
-| Triceps Pushdown | 3 × 10–12 | 1 | 75 s |
-
-### Pull (Tuesday)
-
-Use a wide overhand grip on the pulldown.
-
-| Exercise | Sets × reps | RIR | Rest |
-| --- | --- | --- | --- |
-| Lat Pulldown (Cable) | 4 × 8–10 | 1–2 | 2 min |
-| T Bar Row | 3 × 6–8 | 1–2 | 2.5 min |
-| Seated Cable Row | 3 × 8–12 | 1–2 | 2 min |
-| Rear Delt Reverse Fly (Machine) | 3 × 12–15 | 1 | 75 s |
-| Bicep Curl (Cable) | 3 × 10–12 | 1 | 75 s |
-| Cable Crunch | 2 × 10–15 | 1 | 60 s |
-
-### Legs (Wednesday)
-
-Do the Wednesday plyometrics and static holds in [Outside Hevy](#outside-hevy). They are not part of this routine.
-
-| Exercise | Sets × reps | RIR | Rest |
-| --- | --- | --- | --- |
-| Hack Squat (Machine) | 4 × 6–8 | 1–2 | 3 min |
-| Romanian Deadlift (Barbell) | 3 × 6–8 | 1–2 | 2.5 min |
-| Leg Extension (Machine) | 3 × 10–12 | 1 | 90 s |
-| Seated Leg Curl (Machine) | 3 × 10–12 | 1 | 90 s |
-| Standing Calf Raise (Machine) | 3 × 8–12 | 1 | 90 s |
-
-Pause a full second at the top of each calf raise.
-
-### Upper (Friday)
-
-Use a neutral or reverse grip on the pulldown so it differs from Tuesday.
-
-| Exercise | Sets × reps | RIR | Rest |
-| --- | --- | --- | --- |
-| Bench Press (Dumbbell) | 3 × 6–10 | 1–2 | 2.5 min |
-| Chest Supported Incline Row (Dumbbell) | 3 × 8–10 | 1–2 | 2 min |
-| Lat Pulldown (Cable) | 3 × 8–12 | 1–2 | 2 min |
-| Lateral Raise (Dumbbell) | 3 × 12–15 | 1 | 75 s |
-| Face Pull | 2 × 12–15 | 1 | 60 s |
-| Triceps Extension (Cable), overhead | 3 × 10–12 | 1 | 75 s |
-| Bicep Curl (Dumbbell) | 2 × 8–12 | 1 | 75 s |
-| Hanging Knee Raise | 2 × 8–12 | 1 | 60 s |
-
-### Lower (Saturday)
-
-Do the Saturday plyometrics and static holds in [Outside Hevy](#outside-hevy). They are not part of this routine.
-
-| Exercise | Sets × reps | RIR | Rest |
-| --- | --- | --- | --- |
-| Leg Press (Machine) | 4 × 8–10 | 1–2 | 2.5 min |
-| Bulgarian Split Squat | 2 × 8–10 each leg | 2 | 90 s between legs |
-| Lying Leg Curl (Machine) | 3 × 10–12 | 1 | 90 s |
-| Hip Thrust (Barbell) | 3 × 8–10 | 1–2 | 2 min |
-| Calf Press (Machine) | 3 × 10–15 | 1 | 75 s |
-
-On the calf press, keep a soft bend in the knees. Rest 90 seconds between legs on the split squats, and rest 2 minutes after both legs are done.
-
-## Outside Hevy
-
-Jumps, static holds, and mobility. Leave these out of the Hevy routines.
-
-Static holds are for tendon strength. Breathe through each hold. Keep the effort smooth, around a 6 or 7 out of 10, and stop before the position shakes apart. On wall sits and Spanish squats, keep the heels down and the knees tracking over the mid-foot. Use a higher thigh position if the knee complains. Stop any hold or jump that turns sharp.
-
-### Wednesday — plyometrics (before the lifts)
-
-| Drill | Sets × work | Rest |
+| Exercise | Prescription | Type |
 | --- | --- | --- |
-| Pogo hops | 2 × 12 contacts | 60 s |
-| Box jump, step down | 3 × 3 | 90 s |
+| Cat-Cow | Warm-up | Warm-up |
+| Bench Press (Smith) | 2 warm-up sets + 3 × 6–8 | Strength |
+| Incline Bench (DB) | 1 warm-up set + 2 × 8–10 | Strength |
+| Seated OHP (DB) | 1 warm-up set + 2 × 8–10 | Strength |
+| Single Arm Lateral Raise (Cable) | 2 × 10–12 | Strength |
+| Triceps Pushdown | 2 × 10–12 | Strength |
+| Overhead Triceps Ext (Cable) | 2 × 10–12 | Strength |
 
-Pogo hops are small, quiet ankle bounces on the balls of the feet. Use a box you can stick and step down from.
+### Pull
 
-### Wednesday — static holds (after the lifts)
-
-| Hold | Sets × time | Rest |
+| Exercise | Prescription | Type |
 | --- | --- | --- |
-| Wall sit | 3 × 30–45 s | 75 s |
-| Spanish squat hold | 2 × 30–45 s | 60 s |
-| Tibialis hold | 2 × 20–30 s | 45 s |
+| Cat-Cow | Warm-up | Warm-up |
+| Lat Pulldown (Cable) | 2 warm-up sets + 3 × 8–10 | Strength |
+| Chest Supported T Bar Row | 1 warm-up set + 3 × 8–10 | Strength |
+| Seated Cable Row Wide | 2 × 10–12 | Strength |
+| Reverse Fly Single Arm (Cable) | 2 × 12–15 | Strength |
+| Shrug (Cable) | 2 × 12–15 | Strength |
+| Single Arm Curl (Cable) | 2 × 10–12 | Strength |
+| Hammer Curl (Cable) | 2 × 10–12 | Strength |
 
-Spanish squat hold: loop a strap or heavy band from a rack behind the knees, sit down and slightly back, and keep the heels flat. Tibialis hold: stand with your back on a wall and heels close to it, lift the toes, and hold.
+### Legs
 
-### Saturday — plyometrics (before the lifts)
-
-| Drill | Sets × work | Rest |
+| Exercise | Prescription | Type |
 | --- | --- | --- |
-| Broad jump, stick the landing | 3 × 3 | 90 s |
-| Pogo hops | 2 × 10 contacts | 60 s |
+| Bodyweight squat | Warm-up | Warm-up |
+| Jump Squat | 3 × 5 | Plyometric |
+| Pogo Jumps | 2 × 10 | Plyometric |
+| Hack Squat | 2 warm-up sets + 3 × 6–8 | Strength |
+| Back Extension | 1 warm-up set + 2 × 8–10 | Strength |
+| Lying Leg Curl | 2 × 10–12 | Strength |
+| Leg Extension | 2 × 10–12 | Strength |
+| Calf Press | 2 × 10–12 | Strength |
+| Wall Sit | 2 × 45 s | Static hold |
+| Single Leg Calf Raise Iso Hold | 2 × 30 s each side | Static hold |
 
-Reset fully between broad jumps. End the set if the landing gets loud or the knee caves.
+### Upper
 
-### Saturday — static holds (after the lifts)
-
-| Hold | Sets × time | Rest |
+| Exercise | Prescription | Type |
 | --- | --- | --- |
-| Wall sit | 2 × 30 s | 75 s |
-| Split squat hold | 2 × 30 s each leg | 45 s |
-| Single-leg calf raise hold, top position | 2 × 20–30 s each leg | 45 s |
-| Bent-knee calf hold | 2 × 30 s | 60 s |
+| Cat-Cow | Warm-up | Warm-up |
+| Incline Bench (DB) | 2 warm-up sets + 3 × 8–10 | Strength |
+| Lat Pulldown (Machine) | 1 warm-up set + 3 × 8–10 | Strength |
+| Pec Deck | 2 × 10–12 | Strength |
+| Bent Over Row (Smith) | 2 × 8–10 | Strength |
+| Single Arm Lateral Raise (Cable) | 2 × 10–12 | Strength |
+| Skullcrusher (Barbell) | 2 × 10–12 | Strength |
+| Concentration Curl | 2 × 10–12 | Strength |
 
-Split squat hold: front foot flat, torso tall, rear knee under the hip. Stay above a knee angle that bothers you. Single-leg calf hold: hand on a wall, straight knee, hold the top. Bent-knee calf hold: both feet on the floor or a low step, knees softly bent, hold a mid-range position. This is the Achilles-friendly hold. Stay out of a deep loaded stretch.
+### Lower
 
-### Thursday and Sunday — mobility routine
-
-Same routine both days. Move slowly and only into a comfortable range. About 30 minutes.
-
-| Order | Drill | Time |
+| Exercise | Prescription | Type |
 | --- | --- | --- |
-| 1 | Cat-cow | 90 s |
-| 2 | World's greatest stretch | 60 s each side |
-| 3 | 90/90 hip switches | 90 s |
-| 4 | Half-kneeling hip flexor stretch | 60 s each side |
-| 5 | Supine or seated hamstring stretch | 60 s each side |
-| 6 | Figure-4 glute stretch | 60 s each side |
-| 7 | Straight-knee calf stretch, hands on a wall | 45 s each side |
-| 8 | Bent-knee calf stretch | 45 s each side |
-| 9 | Doorway chest stretch | 60 s each side |
-| 10 | Cross-body shoulder stretch | 45 s each side |
-| 11 | Overhead triceps stretch | 45 s each side |
-| 12 | Kneeling side-reach lat stretch | 45 s each side |
-| 13 | Wall biceps stretch, palm turned out | 30 s each side |
-| 14 | Open-book thoracic rotation | 60 s each side |
-| 15 | Dead bug, slow | 8 reps, about 60 s |
-| 16 | Easy supine breathing | 90 s |
-| 17 | Ear-to-shoulder neck stretch | 30 s each side |
+| Bodyweight squat | Warm-up | Warm-up |
+| Box Jump | 3 × 4 | Plyometric |
+| Split Squat (DB) | 1 warm-up set + 3 × 8–10 | Strength |
+| Seated Leg Curl | 2 × 10–12 | Strength |
+| Reverse Lunge (DB) | 2 × 8–10 | Strength |
+| Hip Adduction | 2 × 12–15 | Strength |
+| Hip Abduction | 2 × 12–15 | Strength |
+| Standing Calf Raise | 2 × 10–12 | Strength |
+| Crunch (Machine) | 2 × 10–12 | Strength |
+| Spanish Squat Iso Hold | 2 × 45 s | Static hold |
+| Split Squat Iso Hold | 2 × 30 s each side | Static hold |
+
+### Recovery
+
+Used on Thursday and Sunday.
+
+| Exercise | Prescription | Type |
+| --- | --- | --- |
+| Easy walk or bike | 5 min | Warm-up |
+| Cat-Cow | — | Mobility |
+| Thoracic Open Book | — | Mobility |
+| 90/90 Hip Switch | — | Mobility |
+| Half-Kneeling Hip Flexor Stretch | — | Mobility |
+| Pigeon | — | Mobility |
+| Frog | — | Mobility |
+| Knee-to-Wall Ankle Dorsiflexion | — | Mobility |
+| Wall Calf Stretch | — | Mobility |
+| Short Foot/Toe Spreading | — | Mobility |
+| Kneeling Toe Stretch | — | Mobility |
+| Quadruped Wrist Rocks | — | Mobility |
+| Wrist Flexor and Extensor Stretch | — | Mobility |
+
+## Block 2 (Weeks 5–8)
+
+Same days and routine titles. Harder lifts, a bit more jump variety, and longer holds. Folder: `Block 2 (Weeks 5-8 - Variations)`.
+
+### Push
+
+| Exercise | Prescription | Type |
+| --- | --- | --- |
+| Incline Bench (Barbell) | 2 warm-up sets + 3 × 6–8 | Strength |
+| Iso-Lateral Chest Press (Machine) | 1 warm-up set + 2 × 8–10 | Strength |
+| Overhead Press (Smith) | 1 warm-up set + 2 × 6–8 | Strength |
+| Lateral Raise (Cable) | 2 × 12–15 | Strength |
+| Weighted Chest Dip | 2 × 6–10 | Strength |
+| Single Arm Tricep Ext (DB) | 2 × 10–12 | Strength |
+
+### Pull
+
+| Exercise | Prescription | Type |
+| --- | --- | --- |
+| Weighted Pull Up | 2 warm-up sets + 3 × 5–8 | Strength |
+| Pendlay Row | 1 warm-up set + 3 × 6–8 | Strength |
+| Single Arm Cable Row | 2 × 10–12 | Strength |
+| Rear Delt Reverse Fly (Cable) | 2 × 12–15 | Strength |
+| Shrug (Smith) | 2 × 10–12 | Strength |
+| Spider Curl (Barbell) | 2 × 8–10 | Strength |
+| Seated Incline Hammer Curl | 2 × 10–12 | Strength |
+
+### Legs
+
+| Exercise | Prescription | Type |
+| --- | --- | --- |
+| Bodyweight squat | Warm-up | Warm-up |
+| Lateral Box Jump | 3 × 4 each side | Plyometric |
+| Jumping Lunge | 2 × 6 each side | Plyometric |
+| Pause Squat | 2 warm-up sets + 3 × 5–6 | Strength |
+| Romanian Deadlift (Barbell) | 1 warm-up set + 3 × 6–8 | Strength |
+| Nordic Curl | 2 × 4–6 | Strength |
+| Single Leg Extension | 2 × 10–12 | Strength |
+| Seated Calf Raise | 2 × 12–15 | Strength |
+| Wall Sit | 2 × 60 s | Static hold |
+| Single Leg Calf Raise Iso Hold | 2 × 45 s each side | Static hold |
+
+### Upper
+
+| Exercise | Prescription | Type |
+| --- | --- | --- |
+| Bench Press (Barbell) | 2 warm-up sets + 3 × 5–8 | Strength |
+| Pull Up | 1 warm-up set + 3 × 6–10 | Strength |
+| Incline Chest Fly (DB) | 2 × 10–12 | Strength |
+| Chest Supported Incline Row (DB) | 2 × 8–10 | Strength |
+| Seated Lateral Raise | 2 × 10–12 | Strength |
+| JM Press | 2 × 8–10 | Strength |
+| Preacher Curl (DB) | 2 × 10–12 | Strength |
+
+### Lower
+
+| Exercise | Prescription | Type |
+| --- | --- | --- |
+| Bodyweight squat | Warm-up | Warm-up |
+| Pogo Jumps | 2 × 15 | Plyometric |
+| Frog Jumps | 2 × 5 | Plyometric |
+| Bulgarian Split Squat | 1 warm-up set + 3 × 8–10 | Strength |
+| Hip Thrust | 1 warm-up set + 3 × 8–10 | Strength |
+| Lying Leg Curl | 2 × 8–10, 3 s eccentric | Strength |
+| Hack Squat | 2 × 10–12 | Strength |
+| Hip Adduction (Cable) | 2 × 12–15 | Strength |
+| Single Leg Standing Calf Raise | 2 × 10–12 | Strength |
+| Tibialis Raise | 2 × 15 | Strength |
+| Cable Crunch | 2 × 10–12 | Strength |
+| Spanish Squat Iso Hold | 3 × 45 s | Static hold |
+| Split Squat Iso Hold | 2 × 45 s each side | Static hold |
+
+### Recovery
+
+Same drills as Block 1, plus four extras. Stretch positions are held 45–60 seconds. Thursday and Sunday.
+
+| Exercise | Prescription | Type |
+| --- | --- | --- |
+| Easy walk or bike | 5 min | Warm-up |
+| Cat-Cow | — | Mobility |
+| Thoracic Open Book | — | Mobility |
+| 90/90 Hip Switch | — | Mobility |
+| Half-Kneeling Hip Flexor Stretch | 45–60 s each side | Mobility |
+| Pigeon | 45–60 s each side | Mobility |
+| Frog | 45–60 s | Mobility |
+| Knee-to-Wall Ankle Dorsiflexion | 45–60 s each side | Mobility |
+| Wall Calf Stretch | 45–60 s each side | Mobility |
+| Short Foot/Toe Spreading | — | Mobility |
+| Kneeling Toe Stretch | 45–60 s | Mobility |
+| Quadruped Wrist Rocks | — | Mobility |
+| Wrist Flexor and Extensor Stretch | 45–60 s | Mobility |
+| Deep Squat Hold | 3 × 45 s | Static hold |
+| Couch Stretch | 45–60 s each side | Mobility |
+| Hamstring Floss | — | Mobility |
+| Dead Hang | 2 × 30 s | Static hold |
+
+Do one-sided stretches on both sides.
 
 ## Progression
 
-Run the week as written for four to six weeks.
+Repeat the Block 1 routines for four weeks, then move to the Block 2 folder at week 5 and repeat those for four weeks. Progress the working sets. Leave the warm-up sets light.
 
-**Lifts.** When every working set hits the top of the rep range at the listed RIR, add the smallest load next session: about 2.5 lb (1 kg) on dumbbells and cables, about 5 lb (2.5 kg) on machines and barbells. If a set falls under the rep range, or you reach RIR 0 before the last set, repeat the same load. If two sessions in a row feel slower and the joints feel irritated, repeat the week and drop one set from each compound.
+**Loads.** When every working set of a lift hits the top of its rep range, add the smallest load the next week: about 2.5 lb (1 kg) on dumbbells and cables, about 5 lb (2.5 kg) on machines and barbells. If a set falls under the range, repeat the same load. Start each Block 2 lift at a weight that fits the new range. The harder exercises are the step up; the load rule inside weeks 5–8 is the same.
 
-**Static holds.** When every set is smooth and the tendon feels normal the next morning, add 5 seconds the following week. Leave the position as it is that week. Cap wall sits, Spanish squats, split squats, and the bent-knee calf hold at 60 seconds, and single-leg calf holds at 45 seconds. After a cap, add one set (wall sit up to 4 sets, the others up to 3) or use a slightly harder position the next week, such as a deeper wall sit. Change only one of those. If a hold leaves sharp pain or a tendon ache that is worse the next morning, use half the time at the next session and skip the jumps that day.
+**Holds and jumps.** Keep the listed contacts and hold times for the whole block. Block 2 is the progression: wall sits go from 45 s to 60 s, single-leg calf holds from 30 s to 45 s, Spanish squat holds from 2 × 45 s to 3 × 45 s, and split-squat holds from 30 s to 45 s. Recovery stretches lengthen to 45–60 s, with the deep squat hold and dead hang added. If a hold or landing is sharp, or a tendon feels worse the next morning, use half the hold time next session and skip that day’s jumps.
 
-**Jumps.** Keep the listed contacts for three weeks. Progress by quieter landings, then a slightly higher box or a slightly longer broad jump. After three calm weeks you can add 1 jump rep or 2 pogo contacts per set, and then hold there.
+**Dashboard.** Session stats will later be pulled from the Hevy API for the dashboard.
